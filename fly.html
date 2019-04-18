@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>La mouuuche !</title>
+    <link rel="stylesheet" href="./styleMouche.css">
+  </head>
+  <body>
+    <div id="info">
+    Coordonnées de la souris : <input type="text" id="coordonnes" value="inconnues" readonly="readonly" />
+    </div>
+    <div id="stop" onclick="terrain.stop()">STOP</div>
+    <div id="start" onclick="startGame()">START</div>
+    <p id="prem"> coord 1 : (0;0)</p>
+    <p id="sec"> coord 2 : (0;0)</p>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="./scriptMouche.js"></script>
+  </body>
+</html>
